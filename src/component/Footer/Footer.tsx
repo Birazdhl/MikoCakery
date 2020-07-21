@@ -1,11 +1,12 @@
 import React from 'react';
 import { Header, Grid, Icon, List } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
+import './footer.css';
 
 const Footer: React.FC = () => {
     return (
 
-        <Grid>
+        <Grid id="footerGrid">
             <Grid.Column width={3}>
                 <Header as="h3" textAlign='center'>Follow Us</Header>
                 <Grid columns="equal">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header, Image, Container, Grid, Menu, Item } from 'semantic-ui-react'
 import { NavLink, Link } from 'react-router-dom'
+import './header.css'
 
 const HeaderMenu: React.FC = () => {
     return (
@@ -10,7 +11,7 @@ const HeaderMenu: React.FC = () => {
                 <Container >
 
                     <Header as='h2' >
-                        <Image className='imageLogo' id='lio' src='assets/mikosCake.png' />
+                        <Image className='imageLogo' id='headerLogo' src='assets/mikosCake.png' />
                     </Header>
 
                 </Container>

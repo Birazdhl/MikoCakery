@@ -1,0 +1,29 @@
+#cakesProduct {
+  width: 1000px;
+  margin-left: 60px;
+}
+
+#productHeader h1 {
+  font-weight: bolder;
+  font-size: xxx-large;
+  margin-left: 90px;
+}
+
+#productHeader h2 {
+  margin-left: 320px;
+  margin-bottom: 51px;
+  margin-top: 0px;
+  font-weight: bolder;
+}
+
+.slick-arrow {
+  background-color: red;
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+}
+.slick-arrow:hover,
+.slick-arrow:active,
+.slick-arrow:focus {
+  background-color: red !important;
+}
